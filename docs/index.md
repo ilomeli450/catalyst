@@ -111,6 +111,6 @@ This spring board includes story mode implementation. Tentative plan:
 - Make a premade level
 - Scrolling background
 
-<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="catalyst/docs/images/favicon.ico">
 
 

@@ -1,6 +1,4 @@
-# Header 1
-## Header 2
-### Header 3
+
 
 ## Visit us
 <a href="Swarthmore Github Enterprise">https://github.swarthmore.edu/cs71-s19/project-ilomeli1-rmuniu1-yqaddur1</a>
@@ -17,7 +15,7 @@ We hope, through this game, to raise awareness of environmental issues by giving
 
 ## User Stories
 
-# Minimum Viable Product
+### Minimum Viable Product
 - Endless mode 
 - 2D Scroller
 - [Local] User progress and management
@@ -31,7 +29,7 @@ We hope, through this game, to raise awareness of environmental issues by giving
   1. Starting game menu
   2. Pause Menu
 
-Good to Have
+### Good to Have
 - Story mode
 - Changing background
   1. Per level
@@ -42,7 +40,7 @@ Good to Have
 - Changing [“evolving”] player
 - Player projectile spawn
 
-Reach Goals
+### Reach Goals
 - Non-local user progress
 - Parallax background
 - Story mode with animated plot development scenes 
@@ -50,60 +48,60 @@ Reach Goals
 - Leaderboard
 - More Options
 
-# High-level Design
+## High-level Design
 
-Back-End User Management
+### Back-End User Management
 - Illustrated and explained in a later section.
-Game Controller 
+### Game Controller 
 - Keep track of game/level progress
   1. Score keeper
 - Endless mode obstacle creation
 - Handles level transitioning functionality
 - Handles game over and check-points
-Mover
+### Mover
 - In charge of gameobject behavior
   1. Movement which is not random, but defined
     - Ie: projectiles shoot straight, waste material falls from above
-Player Controller
+### Player Controller
 - Movement 
   1. Ability and restrictions
 - Behavior (anything player-cued)
   1. ie: low down, speed up, projectile shooting
-Random Rotator
+### Random Rotator
 - General player/obstacle random behavior
   1. Useful for endless mode
   2. Idle (default) character behaviour
-Destroy At Contact
+### Destroy At Contact
 - Enter/Leave collider functionality
 - Attached to game object’s who incite state change upon contact
 - Cue visual effects
-Destroy At Time
+### Destroy At Time
 - Delete remnant visual effect object’s after timer
 
-# Specifications
+## Specifications
 
-AddScore
+### AddScore
   - Method used by game controller when updating private score variable
     1. ie: gain points when destroying gameobject
-Back-end User Management Interfaces
+### Back-end User Management Interfaces
 
-# Testing Plan
+## Testing Plan
 
-Unity public variable
+### Unity public variable
 - We plan to test our code/logic through Unity’s public variable scheme. When a variable is public on unity, developers have the option to define its value outside the code. 
 - We can ensure our expected behavior by playing with values and checking for the expected effect(s).
-Unit Tests
+### Unit Tests
 - We plan to test our expected user management back-end classes behavior using unit tests. (See the section related to back-end user management for information).
 
-# Sprint plans
-
+## Sprint plans
+### Sprint 1
 This sprint board will be represent by a github project board. It is the first development phase of our video game building progress. We initially looked to complete the following tasks:
 - Fish-Bot-Classes entirely implemented with testing.
 - A basic menu implemented and connected with a user manager.
 - The basic structure for obstacles, bullets, fish, movement, and basic background.
 Post Mortem: We were able to implement a basic endless game mode, which contains our basic logic for obstacles, bullets, movement, and a plain background. Next week we will plan to develop an intricate story mode level. We will also need to figure out user progress soon.
 
-Sprint 2
+### Sprint 2
 This spring board includes story mode implementation. Tentative plan:
 - Implementation of checkpoints/saving
 - One-time power up immunity 

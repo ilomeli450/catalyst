@@ -12,9 +12,9 @@ The game will be made using Unity engine. A rough & tentative architecture for t
 
 We hope, through this game, to raise awareness of environmental issues by giving the point of view of a fish in the sea disallowed from touching or interacting with humans production. We seek to achieve this and capture the experience of the player through a dramatic and mysterious atmosphere. Indeed, all of this is tentative and our time is limited but we hope to come up with a game capable of growing further.
 
-# User Stories
+## User Stories
 
-Minimum Viable Product
+# Minimum Viable Product
 - Endless mode 
 - 2D Scroller
 - [Local] User progress and management

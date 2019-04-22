@@ -1,10 +1,13 @@
+# Header 1
+## Header 2
+### Header 3
 
-# Visit us
+## Visit us
 <a href="Swarthmore Github Enterprise">https://github.swarthmore.edu/cs71-s19/project-ilomeli1-rmuniu1-yqaddur1</a>
 
 ![](images/fishbot.png)
 
-# About Catalyst
+## About Catalyst
 
 Inspired by the rising pressures of environmental issues, we seek to develop a 2D scroller game that highlights said issues through original gameplay with dramatic elements. Our game story starts out in a pre-apocalyptic underwater setting. The main character is a healthy fish, who starts out making her way through obstacles. The player is in control of the fish, and the goal of the player is to reach the end of the level and eventually “win” the game. As the game progresses, the underwater scenery changes styles to depict a post-apocalyptic world. We seek to show the progression via music changes, scenery aspects (background, foreground non-interactable objects), cut scenes between levels, and main character sprite changes. We seek to have the character morph into a mechanical fish towards the end. An element of loneliness and mystery will be incorporated by having no living things appear in the game except for the mechanical fishes that appear blurred in the background towards the end.
 

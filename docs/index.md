@@ -130,22 +130,35 @@ This spring board includes story mode implementation. Tentative plan:
 ## UI Sketches/Illustrations: 
 
 (Basic Aesthetics to be changed)
-![](images/water1.png)
+
+![](images/fisheventual.png)
+
 Player Eventual [“evolved”] Look
-![](images/water2.png)
+
+![](images/water1.png)
+
 Endless mode player moving through water with falling endless hazards, player can move fish
-![](images/water3.png)
+
+![](images/water2.png)
+
 Shooter functionality
-![](images/water4.png)
+
+![](images/water3.png)
+
 Explosion on shot
-![](images/water5.png)
+
+![](images/water4.png)
+
 User Interface, press R to restart endless mode
 
 ## Back-End User Management Illustration
 
 Details of each class are included and documented in their corresponding files in github)
+
 ![](images/backend1.png)
+
 ![](images/backend2.png)
+
 Every class has been fully unit tested. The documentation for the unit tests are found in the test classes in FishBot-Test in FishBotClasses in the main repository. Note that the game controller manages users by creating a static user manager and keeping track of the selected user and updating it. (82 Tests have been written so far)
 
 

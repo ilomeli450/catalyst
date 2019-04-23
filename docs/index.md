@@ -102,6 +102,8 @@ We hope, through this game, to raise awareness of environmental issues by giving
 
 ### Back-end User Management Interfaces
 
+Please see Back-End User Management Illustrations
+
 ## Testing Plan
 ### Unity public variable
 - We plan to test our code/logic through Unity’s public variable scheme. When a variable is public on unity, developers have the option to define its value outside the code. 

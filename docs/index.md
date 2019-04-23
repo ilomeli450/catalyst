@@ -16,20 +16,22 @@ We hope, through this game, to raise awareness of environmental issues by giving
 ## User Stories
 
 ### Minimum Viable Product
+
 - Endless mode 
 - 2D Scroller
 - [Local] User progress and management
 - Scorekeeping
 - Player movement
-  1. tain player to visible screen
+  1. Contain player to visible screen
 - Obstacle-player functionality
 - Win
- - Idea: Have goal game object at end of game and “win” on contact
+ 1. Idea: Have goal game object at end of game and “win” on contact
 - Menus
   1. Starting game menu
   2. Pause Menu
 
 ### Good to Have
+
 - Story mode
 - Changing background
   1. Per level
@@ -41,6 +43,7 @@ We hope, through this game, to raise awareness of environmental issues by giving
 - Player projectile spawn
 
 ### Reach Goals
+
 - Non-local user progress
 - Parallax background
 - Story mode with animated plot development scenes 
@@ -51,30 +54,41 @@ We hope, through this game, to raise awareness of environmental issues by giving
 ## High-level Design
 
 ### Back-End User Management
+
 - Illustrated and explained in a later section.
+
 ### Game Controller 
+
 - Keep track of game/level progress
   1. Score keeper
 - Endless mode obstacle creation
 - Handles level transitioning functionality
 - Handles game over and check-points
+
 ### Mover
+
 - In charge of gameobject behavior
-  1. Movement which is not random, but defined
-    - Ie: projectiles shoot straight, waste material falls from above
+  1. Movement which is not random, but defined (ie: projectiles shoot straight, waste material falls from above)
+  
 ### Player Controller
+
 - Movement 
   1. Ability and restrictions
 - Behavior (anything player-cued)
   1. ie: low down, speed up, projectile shooting
+  
 ### Random Rotator
+
 - General player/obstacle random behavior
   1. Useful for endless mode
   2. Idle (default) character behaviour
+  
 ### Destroy At Contact
+
 - Enter/Leave collider functionality
 - Attached to game object’s who incite state change upon contact
 - Cue visual effects
+
 ### Destroy At Time
 - Delete remnant visual effect object’s after timer
 
@@ -83,6 +97,7 @@ We hope, through this game, to raise awareness of environmental issues by giving
 ### AddScore
   - Method used by game controller when updating private score variable
     1. ie: gain points when destroying gameobject
+    
 ### Back-end User Management Interfaces
 
 ## Testing Plan
@@ -113,4 +128,25 @@ This spring board includes story mode implementation. Tentative plan:
 
 <link rel="shortcut icon" type="image/x-icon" href="catalyst/docs/images/favicon.ico">
 
+
+## UI Sketches/Illustrations: 
+
+(Basic Aesthetics to be changed)
+![](images/water1.png)
+Player Eventual [“evolved”] Look
+![](images/water2.png)
+Endless mode player moving through water with falling endless hazards, player can move fish
+![](images/water3.png)
+Shooter functionality
+![](images/water4.png)
+Explosion on shot
+![](images/water5.png)
+User Interface, press R to restart endless mode
+
+## Back-End User Management Illustration
+
+Details of each class are included and documented in their corresponding files in github)
+![](images/backend1.png)
+![](images/backend2.png)
+Every class has been fully unit tested. The documentation for the unit tests are found in the test classes in FishBot-Test in FishBotClasses in the main repository. Note that the game controller manages users by creating a static user manager and keeping track of the selected user and updating it. (82 Tests have been written so far)
 

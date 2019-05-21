@@ -1,6 +1,6 @@
 # FISHBOT
 
-Fishbot is a 2D side-scrolling platform game that seeks to address issues surrounding environmental pollution, particulatly water pollution, though original gameplay with dramatic elements. Players control an initially healthy fish in pursuit of her school that abandoned her, only to realize that they had evolved into mechanical fish to adapt to their now noxious, changing environment. By advancing through progressively darkening levels in which players have to avoid falling obstacles from the wold above, we seek to evoke sensitivity in players to the negative impacts of environmental pollution.*
+Fishbot is a 2D side-scrolling platform game that seeks to address issues surrounding environmental pollution, particulatly water pollution, though original gameplay with dramatic elements. Players control an initially healthy fish in pursuit of her school that abandoned her, only to realize that they had evolved into mechanical fish to adapt to their now noxious, changing environment. By advancing through progressively darkening levels in which players have to avoid falling obstacles from the wold above, we seek to evoke sensitivity in players to the negative impacts of environmental pollution*.
 
 # Obtaining the source  
 The source for this project can be downloaded as follows:

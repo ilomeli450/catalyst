@@ -1,7 +1,7 @@
 
 
 ## Visit us
-<a href="Swarthmore Github Enterprise">https://github.com/ilomeli450/catalyst</a>
+<a href="Swarthmore Github Enterprise">https://github.com/ilomeli450/fishbot</a>
 
 ![](images/fishbot.png)
 
